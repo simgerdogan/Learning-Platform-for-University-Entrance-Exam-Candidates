@@ -44,10 +44,9 @@ other databases and machine learning have been done through cloud services.
 
 Google cloud platform was used for all ML algorithms.
 
-#### 1. Convert to image to text
-#### 2. Classify questions
-#### 3. Suggest similar questions
-#### 4.Provide questions to personalize on home page
+#### 1. Convert  image to text
+#### 2. Classify question subject
+#### 3. Personalized user experience with personalized question suggestions
 
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
