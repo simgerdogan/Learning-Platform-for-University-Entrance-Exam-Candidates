@@ -1,0 +1,238 @@
+#newQuestionDiv
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;
+}
+
+#newQuestionComponentDiv
+{
+    width: 35%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 3%;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+
+}
+
+#newQuestionComponentTitleDiv
+{
+    width: 90%;
+    text-align: left;
+    padding: 3% 3% 3% 6%;
+    color: #A70060;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+#newQuestionComponentTitleDiv h3
+{
+    display: inline-block;
+}
+
+#newQuestionComponentTitleDiv p
+{
+    float: right;
+    cursor: pointer;
+
+
+}
+#newQuestionComponentDataDiv
+{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+
+#newQuestionUploadedDiv{
+    width: 100%;
+}
+#newQuestionUploadedDiv img
+{
+    margin-top: 5%;
+    width: 50%;
+}
+
+#newQuestionUploadedDiv h4
+{
+    margin-top: 10%;
+}
+
+.newQuestionUploadImageDiv
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #A70060;
+    font-size: 15px;
+    cursor: pointer;
+
+
+
+}
+
+.newQuestionUploadImageDiv img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#newQuestionUploadSelectFromComputerDiv
+{
+    margin-top: 10%;
+    position: relative;
+}
+
+#newQuestionUploadSelectFromComputerDiv p
+{
+    text-align: left;
+    font-size: 18px;
+}
+
+#newQuestionUploadSelectFromComputerDiv button
+{
+    padding: 7% 5%;
+    background-color: #3DB39E;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.newQuestionInfoDiv
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.newQuestionEditDiv
+{
+    width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+
+}
+.newQuestionEditDiv h4
+{
+    float: left;
+    margin-left: 5%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.newQuestionEditDiv textarea,select,input
+{
+    padding: 2%;
+    margin-left: 10%;
+    width: 50%;
+    height: auto;
+    border-style: none;
+    border-bottom-style: solid;
+    resize: none;
+    border-radius: 0.1px;
+
+}
+
+.newQuestionEditDiv select
+{
+    margin-left: 17%;
+    width: 40%;
+}
+.newQuestionEditDiv input
+{
+    margin-left: 5%;
+}
+
+textarea:focus
+{
+    outline: none !important;
+
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+    height: 2px;
+    cursor: pointer;
+}
+
+/* Track */
+textarea::-webkit-scrollbar-track {
+    background: #fff5fa;
+
+}
+
+/* Handle */
+textarea::-webkit-scrollbar-thumb {
+    background: #b3af9c;
+}
+
+select option
+{
+    color: rebeccapurple;
+}
+
+#newQuestionInfoImageDiv
+{
+    width: 100%;
+    text-align: center;
+}
+#newQuestionInfoImageDiv img
+{
+    width: 40%;
+    transition: 0.5s;
+}
+#newQuestionInfoImageDiv img:hover
+{
+    width: 50%;
+    transition: 0.5s;
+
+}
+
+.newQuestionEditButtonDiv
+{
+    width: 100%;
+    text-align: center;
+}
+
+.newQuestionEditButtonDiv button
+{
+    padding: 3%;
+    border-radius: 10px;
+    border-style: none;
+    width: 35%;
+    background-color: #60A9B0;
+    color: white;
+    font-size: 18px;
+    margin-top: 2%;
+    cursor: pointer;
+
+
+}
+button[disabled]
+{
+    cursor: pointer;
+    opacity: 0.5;
+}

@@ -1,0 +1,65 @@
+#mockResultsPageDiv
+{
+    display: block;
+}
+.resultDiv
+{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#totalResultsItemDiv
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    text-align: center;
+}
+
+#totalResultsItemDiv h2
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+#totalResultsItemDiv p
+{
+    margin-top:2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#subjectResultsItemDiv
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#subjectResultsItemDiv img
+{
+    width: 30%;
+}
+
+
+#subjectResultsSubject
+{
+    font-family: Arial;
+    font-size: 20px;
+    color: #A70060;
+    margin-top: 2%;
+
+}
+
+#subjectInfosDiv p
+{
+    color: #A70060;
+    margin-top: 1%;
+    text-align: center;
+
+
+}
+#subjectInfosDiv b
+{
+    font-size: 18px;
+}

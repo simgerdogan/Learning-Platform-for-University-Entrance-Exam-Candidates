@@ -1,0 +1,100 @@
+#userProfileDiv
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#userInfoTabDiv
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#userProfileImageDiv
+{
+    width: 15%;
+    display: block;
+    text-align: center;
+    margin-left: 30%;
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#userProfileImageDiv h3
+{
+    margin-top: 2%;
+}
+#userProfileImageDiv img
+{
+    width: 80%;
+    border-radius: 20px;
+}
+
+#userInfoButtonsDiv
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+#userInfoButtonsDiv img
+{
+    width: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+#userInfoDiv
+{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#userInfoDiv h4
+{
+    margin-left:4%;
+    margin-right: 4%;
+    font-family: 'Open Sans', sans-serif;
+    color: #3DB39E;
+}
+
+#userQuestionItem
+{
+    cursor: pointer;
+}
+
+
+#userProfileQuestions
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding: 1%;
+    width: 50%;
+    height: auto;
+    overflow-y: auto;
+    margin-top: -2%;
+}
+#userQuestionItem
+{
+    width: 180px;
+    height: 190px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+    padding: 2%;
+
+}
+
+#profileQuestionsDiv
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}

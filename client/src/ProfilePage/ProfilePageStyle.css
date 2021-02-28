@@ -1,0 +1,116 @@
+#profilePageDiv
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#profilePageVectorDiv
+{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+
+#profilePageVectorImage
+{
+    width:100%;
+    margin-top: 5%;
+}
+
+#profilePageInfoDiv
+{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+}
+
+#profilePageNumInfoDiv
+{
+    margin: 1.1%;
+    margin-top: 2%;
+    border-style: none;
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    padding: 3% 0.6%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+    margin-left: 2%;
+
+}
+
+#profilePageNumInfoDiv h3
+{
+    font-family: 'Roboto Slab', serif;
+    margin-top: -10%;
+    margin-bottom: 8%;
+
+}
+
+#profilePageNumInfoDiv h4
+{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+
+#profilePageQuestionsDiv
+{
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+    padding: 4% 2%;
+    margin: 2%;
+    border-radius: 20px;
+
+
+}
+#profilePageQuestionsDiv h4
+{
+    margin-top: -2%;
+    margin-bottom: 1.5%;
+    margin-left: 2%;
+}
+
+#profilePageQuestionsDataDiv
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 90%;
+    overflow: auto;
+    padding-right: 5%;
+
+}
+
+
+
+#profilePageQuestionsDataDiv img
+{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    width: 20%;
+    height: auto;
+    border-radius: 20%;
+    opacity: 0.75;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#profilePageQuestionsDataDiv img:hover
+{
+    width: 45%;
+    height: auto;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 100;
+
+}

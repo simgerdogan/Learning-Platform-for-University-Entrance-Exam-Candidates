@@ -1,0 +1,51 @@
+#SplitPageTwoDiv
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+}
+#SplitPageTwoLeft
+{
+    float: left;
+    width: 50%;
+}
+
+#SplitPageTwoLeft img
+{
+    width: 100%;
+}
+
+#SplitPageTwoRight
+{
+    width: 50%;
+
+
+}
+
+.reachUsInputs
+{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#SplitPageTwoRight button
+{
+    background-color: #607CD9;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2%;
+    width: 15%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    bottom: 0;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 3%;
+}

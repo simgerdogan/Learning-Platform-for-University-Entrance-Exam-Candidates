@@ -1,0 +1,77 @@
+#mocksPageDiv
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#examDiv
+{
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    background-color: rgba(96, 124, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff5fa;
+    border-radius: 20px;
+}
+
+#mockNavigation
+{
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: -18%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.mockNav
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.selectedNav
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: #6B3D2B;
+}
+
+#mockQuestionsDiv
+{
+    height: 800px;
+    float: left;
+    overflow-y: scroll;
+    padding: 3%;
+    margin-left: 20%;
+    direction: rtl;
+    margin-top: 4%;
+}
+
+#mockQuestionsDiv::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
+    cursor: pointer;
+}
+
+/* Track */
+#mockQuestionsDiv::-webkit-scrollbar-track {
+    background: #fff5fa;
+
+}
+
+/* Handle */
+#mockQuestionsDiv  ::-webkit-scrollbar-thumb {
+    background: #b3a3a4;
+}
+

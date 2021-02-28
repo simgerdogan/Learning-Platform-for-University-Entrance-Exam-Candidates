@@ -1,0 +1,127 @@
+.welcomePageRightDiv
+{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color:#6B3D2B ;
+    z-index: 4;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.welcomePageRightTitleDiv
+{
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+    padding-left: 5%;
+    margin-top: 10%;
+}
+
+.welcomePageRightInputsDiv
+{
+    margin-top: 13%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.welcomePageRightInputsDiv input
+{
+    width: 60%;
+    margin-top: 5%;
+    border-style: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 3%;
+    font-size: 16px;
+}
+
+.welcomePageRightInputsDiv p
+{
+    text-align: right;
+    margin-right: 23%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+.welcomePageRightInputsDiv button
+{
+    padding: 3%;
+    background-color: white;
+    color: #BB2556;
+    font-family: 'Roboto Slab', serif;
+    border-style: none;
+    border-radius: 20px;
+    width: 25%;
+    font-size: 16px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.socialMediaLoginDiv
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 15%;
+}
+
+
+
+.socialMediaLoginDiv img
+{
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 8%;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+.loginSignUpDiv
+{
+    margin-top: 10%;
+    width: 90%;
+    display: block;
+    text-align: right;
+    color: white;
+}
+#loginSignUpLink
+{
+    text-decoration: underline;
+    font-size: 25px;
+    color: #00FFFF;
+    cursor: pointer;
+}
+
+#signUpPageNameInfoDiv
+{
+    width: 100%;
+}
+
+#signUpPageNameInfoDiv input
+{
+    width: 26.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.welcomePageRightErrorDiv
+{
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+}

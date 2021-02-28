@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+#headerDiv
+{
+
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    place-items: start;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    color: #00FFFF;
+
+}
+
+#headerLogo
+{
+    width: 5%;
+    cursor: pointer;
+}
+#headerLogo img
+{
+    width: 100%;
+}
+
+#headerSearchDiv
+{
+    width: 22%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top:1%;
+    display: inline-block;
+}
+#headerSearchDiv input
+{
+    width: 100%;
+    border-style: none;
+    border-radius: 20px;
+    padding: 5%;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+
+}
+
+#headerSearchDiv input::placeholder
+{
+    font-style: italic;
+
+}
+
+button:focus {
+
+    outline: none !important;
+
+}
+
+input:focus {
+
+    outline: none !important;
+
+}
+#headerSearchDiv img
+{
+    width: 9%;
+    position: relative;
+    margin-top: -12%;
+    float: right;
+    z-index: 4;
+    cursor: pointer;
+    margin-right: -13%;
+}
+
+.headerNavigationsDiv
+{
+    width: 9%;
+    height: auto;
+    display: table-row;
+    text-align: center;
+    margin-top: 1%;
+    cursor: pointer;
+    margin-left: -1%;
+
+
+}
+
+.headerNavigationsDiv img
+{
+    width: 15%;
+    height: auto;
+}
+
+.headerNavigationsDiv h3
+{
+    font-size: 15px ;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+    color: #3DB39E;
+    margin-top: -1.5%;
+}
+
+#headerNewQuestionDiv
+{
+    width: 20%;
+    margin-top: 0.1%;
+    margin-right: -5%;
+    margin-left: -3%;
+
+}
+#headerNewQuestionDiv h3
+{
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+#headerProfilePhotoDiv
+{
+    width: 12%;
+    margin-top: -0.05%;
+
+}
+
+#headerProfilePhotoDiv img
+{
+    width: 30%;
+    border-radius: 20%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #64ffe6;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3DB39E;
+}
+
+a{
+    text-decoration: none;
+}

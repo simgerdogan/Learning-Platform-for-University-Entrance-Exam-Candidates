@@ -1,0 +1,59 @@
+#usersPageDiv
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+}
+#usersPageResultsDiv
+{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    margin-left: 32%;
+    display: block;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 5, 0.1);
+    border-radius: 20px;
+    padding: 1%;
+    margin-top: 2%;
+    text-align: center;
+    overflow: auto;
+
+}
+
+#usersPageUserDiv{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 1% 1% 1% 20%;
+    padding: 2%;
+    cursor: pointer;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgba(0,0,0,0.1);
+}
+
+#usersPageUserDiv:last-child
+{
+    border-bottom-style: none;
+}
+
+#usersPageUserDiv div
+{
+    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+#usersPageUserImageDiv
+{
+    width: 25%;
+    margin-right: 7%;
+}
+#usersPageUserImageDiv img
+{
+    width: 100%;
+    border-radius: 20%;
+}
