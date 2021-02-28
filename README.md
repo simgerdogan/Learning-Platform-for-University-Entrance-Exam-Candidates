@@ -56,13 +56,13 @@ Google cloud platform was used for all ML algorithms.
 
 ## Process for Ask Question
 
-I. With the help of dragzone, only one question image is uploaded to the system.
-II. The question loaded using the image to text ML function is translated into relative text.
-III. Using the Text Classify ML function, the type of the text of the problem is detected.
-IV. Question details are received from the user.
-V. Share question button is clicked.
-VI. Question image is uploaded to firebase storage:Creating a folder named FileID. The FileID was created as userId + Date.now () to be uniqe. Date.now () here is unique because it is taken in milliseconds.Inside the FileID folder there is both the question folder for the question and the answer folder for the answer. The purpose is to access all materials via FileID.At this point, the acquired information is FileId (questionId), userID, imageText, category ..
-VII. It sends everything until this process to the MongoDB database.The name of the database is simel.Inside the simel there is the question document. The document is the same as the table in MySQL.
+- I. With the help of dragzone, only one question image is uploaded to the system.
+- II. The question loaded using the image to text ML function is translated into relative text.
+- III. Using the Text Classify ML function, the type of the text of the problem is detected.
+- IV. Question details are received from the user.
+- V. Share question button is clicked.
+- VI. Question image is uploaded to firebase storage:Creating a folder named FileID. The FileID was created as userId + Date.now () to be uniqe. Date.now () here is unique because it is taken in milliseconds.Inside the FileID folder there is both the question folder for the question and the answer folder for the answer. The purpose is to access all materials via FileID.At this point, the acquired information is FileId (questionId), userID, imageText, category ..
+- VII. It sends everything until this process to the MongoDB database.The name of the database is simel.Inside the simel there is the question document. The document is the same as the table in MySQL.
 
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
