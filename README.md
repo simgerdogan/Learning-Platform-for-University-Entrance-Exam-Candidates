@@ -32,6 +32,8 @@ Visual data to be uploaded by users will be stored via google firebase or amazon
 other databases and machine learning have been done through cloud services.
 
 
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
+
 ---
 
 ## User Intefaces
@@ -65,7 +67,7 @@ other databases and machine learning have been done through cloud services.
 ![FAQ](user%20interfaces/FAQ.jpg)
 
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 
 ---
 
@@ -85,8 +87,12 @@ It was used to learn and classify the texts of the questions whose requirement i
 
 #### 3. Personalized user experience with personalized question suggestions
 
+Firstly, the server objectives in a preliminary test page for this algorithm can be listed as follows:
+to present the mock exams registered in the database to the user and to present the necessary question information in the database to the user for the selected trial.
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+When the user completes the experiment, the purpose of the server is to compare the answers of the users who come to him with the answer key of the relevant experiment in the database, and to present the users' separate net information for each course and the net information in total.The previously produced TYT score calculation system has been developed with a linear regression model.With the linear regression model, it is possible to predict the possible tyt score of the user.According to the Tyt score results, the classification of the users was ensured with another machine learning model that was previously produced.
+
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 
 ---
 
@@ -101,7 +107,7 @@ It was used to learn and classify the texts of the questions whose requirement i
 - VII. It sends everything until this process to the MongoDB database.The name of the database is simel.Inside the simel there is the question document. The document is the same as the table in MySQL.
 
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 
 ---
 
@@ -112,22 +118,26 @@ All other operations performed on the databased on behalf of the user are carrie
 Extra developer accounts were opened for Facebook and Twitter logins.The purpose is to access the userId of the users who log in with these accounts.Authentication was provided with the ip key provided by Facebook and Twitter.The reason for being an IP key is to perform the process without data gap between systems.Therefore, the systems have been developed in connection with each other with keys.
 
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 ---
 
 ## Storage
 It provides storage of all media in the system:question image, answer image, audio recordings, user-specific data, user profile photo.The advantage is that storage works on the client side, that is, clint media is loaded without the need for a server.Since its authentication is done in the same field, a link returns a public link after the user uploads a question.It takes this link and it is processed in the database.In other words, it is used only when the user uploads a question.
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 ---
 
 
 ## Techonologies & Languages
 
-- Java ( programming language )
+- Python (for data)
+- NodeJS (backend)
+- React (frontend)
+- Google Vision API
+- Automl Natural Language API
 
 
-### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
 
 ---
 
