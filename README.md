@@ -35,9 +35,27 @@ other databases and machine learning have been done through cloud services.
 ---
 ## User Intefaces
 
+#### Sign In
 ![Sign in](user%20interfaces/sign%20in%20page.png)
 
-![ ](screenshots/socket%20tunnel%20process%20comunication.jpg)
+#### Home 
+![Home](user%20interfaces/home%20page.jpg)
+
+#### Upload Question
+![Upload](user%20interfaces/upload%20question.jpg)
+
+#### Contact
+![Contact](user%20interfaces/contact.jpg)
+
+#### Question Page
+![Question](user%20interfaces/question%20page.jpg)
+
+#### Profile
+![Profile](user%20interfaces/profile.jpg)
+
+#### FAQ
+![FAQ](user%20interfaces/FAQ.jpg)
+
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
 
