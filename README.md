@@ -9,6 +9,9 @@
 - [Description](#description)
 - [Machine Learning Algorithms](#machine-learning-algorithms)
 - [Process for Ask Question](#process-for-ask-question)
+- [Authentication](#authentication)
+- [Storage](#storage)
+- [User Intefaces](#user-interfaces)
 - [Techonologies and Languages](#languages)
 
 ---
@@ -28,13 +31,13 @@ if the user wants to answer the question, it is possible to send visuals, to ans
 Visual data to be uploaded by users will be stored via google firebase or amazon web services, at the same time, registration / login processes and
 other databases and machine learning have been done through cloud services.
 
-![ ](screenshots/socket%20tunnel%20architecture.jpg)
+
+---
+## User Intefaces
+
+![Sign in](user interfaces/sign%20in%20page.jpg)
 
 ![ ](screenshots/socket%20tunnel%20process%20comunication.jpg)
-
-
-
-
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
 
@@ -67,6 +70,19 @@ Google cloud platform was used for all ML algorithms.
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
 
 ---
+
+## Authentication
+
+
+### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+---
+
+## Storage
+
+
+### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
+---
+
 
 ## Techonologies & Languages
 
