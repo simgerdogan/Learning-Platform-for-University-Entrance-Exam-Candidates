@@ -64,7 +64,7 @@ other databases and machine learning have been done through cloud services.
 ----
 
 #### FAQ
-![FAQ](user%20interfaces/FAQ.jpg)
+![FAQ](user%20interfaces/FAQ%20.jpg)
 
 
 ### [Back To The Top](#Learning-Platform-for-University-Entrance-Exam-Candidates)
