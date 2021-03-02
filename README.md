@@ -11,7 +11,7 @@
 - [Process for Ask Question](#process-for-ask-question)
 - [Authentication](#authentication)
 - [Storage](#storage)
-- [User Intefaces](#user-interfaces)
+- [User Interfaces](#user-interfaces)
 - [Techonologies and Languages](#languages)
 
 ---
@@ -74,7 +74,15 @@ other databases and machine learning have been done through cloud services.
 Google cloud platform was used for all ML algorithms.
 
 #### 1. Convert  image to text
+This function is called OCR. It stands for Optical Character Recognazition.It was carried out as follows:A photo or pdf is sent to the system.Words are formed according to the spaces by progressing letter by letter in the sent file.The requirement in this project is to translate the submitted question into text.Also, data was needed to categorize the questions.The question booklets were downloaded as pdf and used to convert these pdfs to text.
+•Used language: python
+•API used: google vision api
+
 #### 2. Classify question subject
+It was used to learn and classify the texts of the questions whose requirement in this project was the image to text output according to 8 lessons (mat, geo, phys, bio, chemistry ...)So far, 82,571 data have been used for the learning of the system.After the learning of these data, it is determined which of the 8 categories the question belongs to.It does this by keeping the connections between words.In addition, 82.571 data required for the learning of the system was taken from the pdf, since the pdfs are larger than the images, a storage space is needed.Google storage was used to store these pdfs.This works the same as the drive.
+• API used: Automl natural language
+• Accuracy rate as a result of this learning: 90%.
+
 #### 3. Personalized user experience with personalized question suggestions
 
 
