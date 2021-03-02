@@ -37,10 +37,10 @@ other databases and machine learning have been done through cloud services.
 
 #### Sign In
 ![Sign in](user%20interfaces/sign%20in%20page.png)
-
+----
 #### Home 
 ![Home](user%20interfaces/homepage.jpg)
-
+----
 #### Upload Question
 ![Upload](user%20interfaces/upload%20question.jpg)
 
