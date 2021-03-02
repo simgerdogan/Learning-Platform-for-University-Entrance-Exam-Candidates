@@ -33,25 +33,33 @@ other databases and machine learning have been done through cloud services.
 
 
 ---
+
 ## User Intefaces
+
 
 #### Sign In
 ![Sign in](user%20interfaces/sign%20in%20page.png)
 ----
+
 #### Home 
 ![Home](user%20interfaces/homepage.jpg)
 ----
+
 #### Upload Question
 ![Upload](user%20interfaces/upload%20question.jpg)
+----
 
 #### Contact
 ![Contact](user%20interfaces/contact.jpg)
+----
 
 #### Question Page
 ![Question](user%20interfaces/question%20page.jpg)
+----
 
 #### Profile
 ![Profile](user%20interfaces/profile.jpg)
+----
 
 #### FAQ
 ![FAQ](user%20interfaces/FAQ.jpg)
@@ -90,13 +98,17 @@ Google cloud platform was used for all ML algorithms.
 ---
 
 ## Authentication
+Some methods were offered to users to log into the system (login, signup): mail, google, facebook, twitter.After selecting any of these options, a userId is obtained.
+All other operations performed on the databased on behalf of the user are carried out through this userId.
+
+Extra developer accounts were opened for Facebook and Twitter logins.The purpose is to access the userId of the users who log in with these accounts.Authentication was provided with the ip key provided by Facebook and Twitter.The reason for being an IP key is to perform the process without data gap between systems.Therefore, the systems have been developed in connection with each other with keys.
 
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
 ---
 
 ## Storage
-
+It provides storage of all media in the system:question image, answer image, audio recordings, user-specific data, user profile photo.The advantage is that storage works on the client side, that is, clint media is loaded without the need for a server.Since its authentication is done in the same field, a link returns a public link after the user uploads a question.It takes this link and it is processed in the database.In other words, it is used only when the user uploads a question.
 
 ### [Back To The Top](#Software-Architecture-for-Natural-Disaster)
 ---
